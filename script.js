@@ -16,9 +16,14 @@ backgroundColor:"black",
 
 
 // cursor animation
-
+let cursorpoint=document.querySelector("#cursor")
+let cursorpointblur=document.querySelector("#cursor-blur")
 document.addEventListener("mousemove",function (dets){
-    console.log(dets);
+    cursorpoint.style.left=dets.x+"px"
+    cursorpoint.style.top=dets.y+"px"
+    cursorpointblur.style.left=dets.x-150+"px"
+    cursorpointblur.style.top=dets.y-150+"px"
+
 })
 
 
