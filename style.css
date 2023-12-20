@@ -122,7 +122,7 @@ background-color: rgba(0,0,0, 0.37);
 
     /* background-color: red; */
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
     z-index: 70;
@@ -215,6 +215,7 @@ text-wrap: balance;
 #cardsProduct{
 /* background-color: red; */
 height: 60vh;
+width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -232,7 +233,7 @@ margin-top: 50px;
     height: 85%;
     width: 25%;
     border-radius: 20px;
-    background-color: blue;
+    /* background-color: blue; */
     background-size: cover;
     background-position: center;
     text-wrap:balance;
@@ -323,7 +324,7 @@ margin-top: 50px;
 
     height: 100vh;
     position: relative;
-    background-color: blue;
+    background-color: black;
     width: 100%;
     display: flex;
     align-items: center;
@@ -360,4 +361,93 @@ margin-top: 50px;
    right: 25%;
    bottom: 20%;
    
+   
+}
+
+
+.page4{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+ 
+}
+
+.elem{
+    /* height: 70%;
+    width: 20%; */
+    width: 25%;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+    border: 2px solid black;
+    position: relative;
+    z-index: 10;
+    object-fit: cover;
+    object-position: center;
+
+}
+.elemelem{
+ /* height: 70%;
+    width: 20%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cover{
+    background-color: #95c11e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.cover:hover{
+    opacity: 0;
+    transition-duration: 0.6s;
+}
+
+.text {
+  z-index: 30;
+  color: black;
+  position: absolute;
+  top: 50%;
+  
+ 
+    
+}
+
+.elem img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#backtext{
+    
+    font-size: 90px;
+font-weight: 800;
+width: 100%;
+    margin-bottom: -70px;
+    position: relative;
+    color:#95c11e;
+    
+}
+
+#backtext::before{
+    content:"You will have the ";
+    position: absolute;
+    color: white;
+   
+    top: 3px;
+    left: 3px;
 }
