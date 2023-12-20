@@ -284,3 +284,80 @@ margin-top: 50px;
     color: black;
 
 }
+
+
+
+
+/* green div */
+
+.greenDiv{
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg in oklab, rgb(165, 235, 144), rgb(120, 193, 120));
+
+}
+
+.greenDiv img{
+    height:20%;
+    width: 340px;
+    
+}
+
+.grindivText{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+
+/*  */
+#nav h4{
+    padding: 10px;
+}
+
+.page3{
+
+    height: 100vh;
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page3>p{
+    font-size: 25px;
+    font-weight: 700;
+    width: 40%;
+    text-align: center;
+    line-height: 40px;
+ 
+
+
+}
+
+
+.page3 img{
+    height: 90px;
+    width: 90px;
+    
+}
+
+#col1{
+   position: absolute;
+   left: 25%;
+   top: 20%;
+   
+}
+#col2{
+   position: absolute;
+   right: 25%;
+   bottom: 20%;
+   
+}
