@@ -5,7 +5,7 @@ backgroundColor:"black",
     scrollTrigger:{
         trigger:"#nav",
         scroller:"body",
-        markers: true,
+       
         start:"top -10%",
         end:"top -10%",
         scrub:1
@@ -39,7 +39,7 @@ h4all.forEach(function(elem){
    elem.addEventListener("mouseleave", function(){
     cursorpoint.style.scale=1
     cursorpoint.style.border="0px"
-    cursorpoint.style.backgroundColor="#95c11e"
+    cursorpoint.style.backgroundColor="#4aa6e7 "
     
    })
 })
@@ -51,7 +51,7 @@ gsap.to("#main",{
     scrollTrigger:{
         trigger:"#main",
         scroller:"body",
-        markers:true,
+        
         start:"top -25%",
         end:"top -70%",
         scrub:2
@@ -69,7 +69,7 @@ gsap.from("#aboutus img,#about-us-title ",{
     scrollTrigger:{
         trigger:"#about-us-title",
         scroller:"body",
-        markers:true,
+        
         start:"top 60%",
         end:"top 55%",
         scrub:3
@@ -81,12 +81,12 @@ gsap.from(".card ",{
     scale:0.8,
     opacity:0,
     duration:1,
-    stagger:1,
+  
     scrollTrigger:{
         trigger:".card",
         scroller:"body",
-        markers:true,
-        start:"top 60%",
+
+        start:"top 90%",
         end:"top 65%",
         scrub:0.2
     }
@@ -100,7 +100,7 @@ gsap.from("#backtext ",{
     scrollTrigger:{
         trigger:"#backtext",
         scroller:"body",
-        markers:true,
+        
         start:"top 90%",
         end:"top 10%",
         scrub:0.2
@@ -115,7 +115,7 @@ gsap.from("#col1",{
     scrollTrigger:{
         trigger:"#col1",
         scroller:"body",
-        markers:true,
+        
         start:"top 57%",
         end:"top 45%",
         scrub:4
@@ -127,7 +127,7 @@ gsap.from("#col2",{
     scrollTrigger:{
         trigger:"#col2",
         scroller:"body",
-        markers:true,
+        
         start:"top 120%",
         end:"top 45%",
         scrub:4
